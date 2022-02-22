@@ -6,7 +6,7 @@
 		$description_og = '';
 	@endphp
 	@include('inc-meta')
-    <title>{{ strtoupper(config('app.name')) }} | {{__('Générateur et gestionnaire de puzzles de Parsons')}}</title>
+    <title>{{ strtoupper(config('app.name')) }} | {{__('Générateur et gestionnaire de Textes Puzzles')}}</title>
 </head>
 <body>
 	@php
