@@ -49,7 +49,7 @@
 							{{__('Si vous avez reçu le courriel de vérification, que vous avez cliqué sur le lien mais que vous arrivez tout de même sur cette page,')}} <a href="{{ route('direct-login') }}" class="button text-center">{{__('cliquez ici')}}</a> {{__('pour vous connecter.')}}
 							</li>
 							<li class="mt-3">
-							{{__('Si un problème persiste et vous empêche de vous connecter, vous pouvez écrire à')}} <a href="mailto:contact@codepuzzle.io">contact@codepuzzle.io</a>.
+							{{__('Si un problème persiste et vous empêche de vous connecter, vous pouvez écrire à')}} <a href="mailto:contact@txtpuzzle.net">contact@txtpuzzle.net</a>.
 							</li>
 						</ul>
 					</div>

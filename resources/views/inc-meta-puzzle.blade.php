@@ -48,7 +48,7 @@
 <meta property="og:title" content="Txt Puzzle" />
 <meta property="og:type" content="website" />
 <meta property="og:description" content="{{__('Générateur et gestionnaire de Textes Puzzles')}} {{ $description_og ?? '' }}" />
-<meta property="og:url" content="https://www.codepuzzle.io" />
+<meta property="og:url" content="https://www.txtpuzzle.net" />
 <meta property="og:image" content="{{ asset('img/open-graph.png') }}" />
 <meta property="og:image:alt" content="Txt Puzzle" />
 <meta property="og:image:type" content="image/png" />

@@ -67,9 +67,9 @@
 							<td class="p-2">IMAGE</td>
 							<td class="p-2 text-monospace text-muted">
 								<p>![](url-image)</p>
-								<p class="mb-0"><i>Exemple : ![](https://www.codepuzzle.io/img/codepuzzle.png)<i></p>
+								<p class="mb-0"><i>Exemple : ![](https://www.txtpuzzle.net/img/txtpuzzle.png)<i></p>
 							</td>
-							<td class="p-2"><img src="https://www.codepuzzle.io/img/codepuzzle.png" width="160"/></td>
+							<td class="p-2"><img src="https://www.txtpuzzle.net/img/txtpuzzle.png" width="160"/></td>
 						</tr>
 						<tr>
 							<td class="p-2">LIEN</td>
