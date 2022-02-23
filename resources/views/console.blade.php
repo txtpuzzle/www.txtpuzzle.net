@@ -16,10 +16,10 @@
 
 			<div class="col-md-2">
                 <a class="btn btn-primary btn-sm mb-4" href="{{route('puzzle-creer-get')}}" role="button" style="width:100%;">{{__('nouveau puzzle')}}</a>
-                <a href="https://github.com/txtpuzzle-net/www.txtpuzzle.net/discussions" target="_blank" role="button" class="mt-2 btn btn-light btn-sm text-left text-muted" style="width:100%;opacity:0.8;">
+                <a href="https://github.com/txtpuzzle/www.txtpuzzle.net/discussions" target="_blank" role="button" class="mt-2 btn btn-light btn-sm text-left text-muted" style="width:100%;opacity:0.8;">
                 	<span style="font-size:80%"><i class="fas fa-comment-alt" style="float:left;margin:4px 8px 5px 0px;"></i> {{__('discussions')}} <span style="opacity:0.6;font-size:90%;">&</span> {{__('annonces')}}</span>
                 </a>
-                <a href="https://github.com/txtpuzzle-net/www.txtpuzzle.net/issues/new/choose" target="_blank" role="button"  class="mt-1 btn btn-light text-left btn-sm text-muted" style="width:100%;opacity:0.8;">
+                <a href="https://github.com/txtpuzzle/www.txtpuzzle.net/issues" target="_blank" role="button"  class="mt-1 btn btn-light text-left btn-sm text-muted" style="width:100%;opacity:0.8;">
                 	<span style="font-size:80%"><i class="fas fa-bug" style="float:left;margin:4px 8px 5px 0px;"></i> {{__('signalement de bogue')}} <span style="opacity:0.6;font-size:90%;">&</span> {{__('questions techniques')}}</span>
                 </a>
                 <div class="mt-3 text-muted text-monospace pl-1 mb-5" style="font-size:70%;opacity:0.8;">
