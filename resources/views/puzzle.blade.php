@@ -118,7 +118,7 @@ app()->setLocale($puzzle->lang)
         </div>
 
         <div class="row mt-3 mb-5">
-            <div class="col-md-6 offset-md-3">
+            <div class="col-md-8 offset-md-2">
                 <div id="sortable" class="sortable-code"></div>
             </div>
         </div>
