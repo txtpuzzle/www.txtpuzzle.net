@@ -132,7 +132,7 @@
 						<label class="form-check-label text-monospace text-muted small" for="with_score">ne pas afficher les points</label>
 					</div>
 					<div class="form-check">
-						<input class="form-check-input" name="with_shuffle" type="checkbox" value="0" id="is_shuffled" {{$with_shuffle_checked}} />
+						<input class="form-check-input" name="with_shuffle" type="checkbox" value="0" id="with_shuffle" {{$with_shuffle_checked}} />
 						<label class="form-check-label text-monospace text-muted small" for="with_shuffle">ne pas mélanger les lignes</label>
 					</div>
 
@@ -143,7 +143,7 @@
 						Choix multiples: [?texte_correct?distracteur1?distracteur2?distracteur3?]
 					</div>
 
-					<textarea id="puzzle" name="puzzle" class="form-control" rows="8">{{ old('puzzle') }}</textarea>
+					<textarea id="puzzle" name="puzzle" class="form-control" rows="8"></textarea>
 					@error('puzzle')
 						<span class="invalid-feedback d-block" role="alert">
 							<strong>{{ $message }}</strong>

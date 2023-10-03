@@ -85,6 +85,11 @@ Route::get('/iframe/{jeton}', function($jeton) {
     return view("puzzle-iframe", ["jeton"=>$jeton]);
 })->name('puzzle-iframe');
 
+// affichage iframe v2
+Route::get('/i/{jeton}', function($jeton) {
+    return view("puzzle-iframe", ["jeton"=>$jeton]);
+})->name('puzzle-iframe');
+
 // ============================================================================
 
 

@@ -147,7 +147,6 @@ h3 {
     background-color: #ecf0f1;
     color:#bdc3c7;
     padding: 5px 20px 5px 20px;
-    font-weight:bold;
 }
 
 select:focus, input:focus{
@@ -157,8 +156,7 @@ select:focus, input:focus{
 .ccm {
     border-radius:3px;
     color:white;
-    padding-left:4px;
-    height:18px;
+    padding:4px 4px 4px 4px;
 }
 
 .ccm_incorrect {
@@ -174,9 +172,9 @@ select:focus, input:focus{
 
 .cat {
     border-radius:3px;
-    text-align: center;
+    text-align: left;
     color: white;
-    height:18px;
+    padding:1px 6px 1px 8px;
 }
 
 .cat_incorrect {
@@ -195,8 +193,8 @@ select:focus, input:focus{
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  font-size: 90%;
-  font-family: monospace;
+  font-size: 17px;
+  font-family: arial;
   list-style: none;
   /*background-color: #f2f4f6;*/
   padding: 10px 10px 10px 10px;
@@ -221,11 +219,12 @@ ul.correct {
   border-radius: 0px;
   background-color: #f8fafc;
   border: none;
-  padding: 0px 10px 0px 10px;
+  padding: 3px 10px 3px 10px;
   margin: 3px 0px 3px 0px;
-  white-space: nowrap;
-  overflow: hidden;
+  white-space: wrap;
+  overflow: none;
   cursor: move;
+  text-align: justify;
   border-left: 4px solid #f8fafc;
 }
 

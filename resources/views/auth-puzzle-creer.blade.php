@@ -139,7 +139,7 @@
 						<label class="form-check-label text-monospace text-muted small" for="with_score">ne pas afficher les points</label>
 					</div>
 					<div class="form-check">
-						<input class="form-check-input" name="with_shuffle" type="checkbox" value="0" id="is_shuffled" {{$with_shuffle_checked}} />
+						<input class="form-check-input" name="with_shuffle" type="checkbox" value="0" id="with_shuffle" {{$with_shuffle_checked}} />
 						<label class="form-check-label text-monospace text-muted small" for="with_shuffle">ne pas mélanger les lignes</label>
 					</div>
 

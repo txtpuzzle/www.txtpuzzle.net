@@ -18,6 +18,7 @@ function minifier($code) {
     $replace = array('>', '<', '\\1');
     $code = preg_replace($search, $replace, $code);
     return $code;
+
 }
 
 
@@ -30,15 +31,6 @@ if (App\Models\Auth_puzzle::where('jeton', $jeton)->first() OR  App\Models\Guest
 	echo '</body></html>';
 	exit;
 }
-
-$puzzle_cleaned = preg_replace_callback("/\[\?(.*?)\?\]/m", function($matches){
-    if (strpos($matches[1], '?')){
-        $items_array = explode('?', $matches[1]);
-        return $items_array[0];
-    } else {
-        return $matches[1];
-    }
-}, $puzzle->puzzle);
 
 app()->setLocale($puzzle->lang)
 ?>
@@ -133,6 +125,20 @@ app()->setLocale($puzzle->lang)
 		  return new bootstrap.Tooltip(tooltipTriggerEl)
 		})
 	</script>
+
+    <script>
+        MathJax = {
+        tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+        svg: {
+            fontCache: 'global'
+        }
+        };
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+    </script>    
 
 </body>
 </html>
